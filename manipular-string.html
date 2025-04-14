@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipular Strings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Manipular Strings</h1>
+    <form id="stringForm">
+        <label for="fullName">Digite seu nome completo:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <button type="button" onclick="analyzeString()">Analisar</button>
+    </form>
+    <div id="results">
+        <p id="withoutVowels"></p>
+        <p id="withoutConsonants"></p>
+        <p id="vowelCount"></p>
+        <p id="consonantCount"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
